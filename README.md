@@ -3,6 +3,9 @@
 ```
 命令：python manage.py runserver 127.0.0.1:3333
 ```
+```
+网址：http://127.0.0.1:3333/login/
+```
 
 # 步骤
 
