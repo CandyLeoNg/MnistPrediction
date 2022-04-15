@@ -21,7 +21,7 @@ def Predict(path):
 
     # 加载模型
     model = returnModel()
-    model.load_state_dict(torch.load('C:/Users/10935/Desktop/mnistPredict/mnist/model.pth'))
+    model.load_state_dict(torch.load('./model.pth'))
 
     # print(mnist)
     # print(mnist(fig_1))
