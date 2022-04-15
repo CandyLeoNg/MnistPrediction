@@ -1,4 +1,4 @@
-# New-a-Django-Project
+# mnistPredict
 创建一个基于Django的mnist手写题识别项目
 ```
 命令：python manage.py runserver 127.0.0.1:3333
