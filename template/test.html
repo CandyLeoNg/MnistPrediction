@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./template/img/icon.png">
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.4/examples/cover/">
+
+    <title>MNIST Prediction</title>
+
+
+    <script>
+      function xmTanUploadImg(obj) {
+        var file = obj.files[0];
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function (e) {    //成功读取文件
+            var img = document.getElementById("selectImg");
+            img.src = e.target.result;   //或 img.src = this.result / e.target == this
+ 			var imgs=document.getElementById("selectImg");
+
+			imgs.style.display="block";
+			console.log("6666")
+            //实现点击下载图片功能
+            var xmTanDownload =  document.getElementById("xmTanDownload");
+            xmTanDownload.setAttribute("href", e.target.result);  //给a标签设置href
+        };
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">MNIST Prediction</h3>
+            </div>
+          </div>
+
+          <div class="">
+              Welcome
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>手写体预测, by <a>@ Leo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+</body>
+</html>
