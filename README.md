@@ -49,7 +49,7 @@ python manage.py runserver 127.0.0.1:3333
 ```
 访问 http://127.0.0.1:3333/login/ 即可
 
-![image](https://user-images.githubusercontent.com/63994835/163525930-01bdcda3-a4bf-4e2c-9d0b-ac7c1c1d51b8.png)
+![image](https://user-images.githubusercontent.com/63994835/168125654-8810ab3e-4a02-4f85-a227-a8333ac0789d.png)
 
 
 
