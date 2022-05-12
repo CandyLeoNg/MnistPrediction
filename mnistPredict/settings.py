@@ -129,3 +129,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 用户图片上传后保存的路径
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
